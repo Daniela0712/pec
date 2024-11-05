@@ -1,0 +1,75 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #B5D5DA, #d9eef8);
+ }
+ 
+   
+   @keyframes fadeIn {
+     from {
+       opacity: 0;
+       transform: scale(3);
+       color:#919BAA
+     }
+     to {
+       opacity: 1;
+       transform: scale(1);
+       color:#303131
+     }
+   }
+ .elemento{
+  font-family: serif;
+     animation: fadeIn 2s;
+     font-size:35px;
+     transition:all 0.5 ease-in-out;
+ }
+ .contenedor-botones {
+  text-align: center;
+  margin-top: 100px;
+ }
+ .boton-pequeno {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #25344F;
+  color: #fff;
+  cursor: pointer;
+}
+.boton-info {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #25344F;
+  color: #fff;
+  cursor: pointer;
+}
+ 
+ .boton {
+  width: 280px;
+  height: 200px;
+  margin: 25px;
+  border: none;
+  border-radius: 25px;
+  background-color: #25344F;
+  box-shadow: 0 0 10px rgb(139, 139, 141);
+  cursor: pointer;
+  transition: all 0.5s ease;
+ }
+ 
+ .boton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+ }
+ 
+ .boton img {
+  width: 80px;
+  height: 80px;
+  margin: 30px;
+ }
+ 
+ .boton span {
+  font-size: 22px;
+  font-family: serif;
+  color: #f1f377;
+ }
