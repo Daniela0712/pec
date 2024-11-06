@@ -19,10 +19,19 @@ header {
     justify-content: center;
 }
 
-.imagen1, .imagen2, .imagen3 {
-    width: 47%;
+.imagen1, .imagen2, .imagen3, .imagen4 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
     height: auto;
-    border-radius: 15px;
+    border-radius: 25px;
+}
+
+.imagen1 p, .imagen2 p, .imagen3 p, .imagen4 p {
+   font-size: 20px;
+   padding: 10px;
+   text-align: center;
+   color: black;
 }
 
 img {
